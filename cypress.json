@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://demo.realworld.io/#",
+    "apiUrl": "https://conduit.productionready.io/api/",
+    "viewportWidth": 1000,
+    "viewportHeight": 660,
+    "defaultCommandTimeout": 10000,
+    "chromeWebSecurity": false,
+    "user": {
+        "email": "melmis@mail.com",
+        "password": "12345678"
+    }
+    
+}
