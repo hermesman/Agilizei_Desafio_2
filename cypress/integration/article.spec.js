@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 import articles from '../support/pages/article'
-import Routes from '../support/pages/routes'
+
 
 context('Artigos', () => {
 
