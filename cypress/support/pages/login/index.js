@@ -20,7 +20,10 @@ class login {
         cy.get(el.buttonSubmit).click()      
    }     
 
-    // verificação
+    verificarLogin(){
+        // verificação
+        cy.url().should('contain', 'https://demo.realworld.io/#/')
+    }
 }
 
 export default new login()

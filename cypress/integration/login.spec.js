@@ -8,7 +8,7 @@ context('Login', () => {
         login.acessarLogin()
         login.preencherFormulario()
         login.submeterFormulario()
-
-        // verificacao
+        login.verificarLogin()
+  
     });
 });

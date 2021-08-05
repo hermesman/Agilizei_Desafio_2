@@ -21,9 +21,3 @@ context('Artigos', () => {
     })
     
 })
-
-    //hooks => , momentos antes / depois do teste
-    //before / beforeEach
-    //after / afterEach
-    // AAA => Arrange Act Assert
-    // => Preparação Execução Verificação/Validação
