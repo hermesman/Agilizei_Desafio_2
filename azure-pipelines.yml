@@ -29,7 +29,7 @@ steps:
 - task: PublishTestResults@2
   displayName: "Exibindo os resultados dos testes"
   inputs:
-    testResultFiles: '**/junit-*.xml'
+    testResultFiles: '**/TEST-*.xml'
     mergeTestResults: true
     testRunTitle: "Desafio Agilizei Nivel 2"
   continueOnError: true
